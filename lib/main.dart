@@ -50,8 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future _test() async {
-    // final service = BrowserService();
-    // await service.getInformationFromPage('https://mercatustecnologia.atlassian.net/issues/?filter=10361');
-    BrowserHandle().handle('https://mercatustecnologia.atlassian.net/issues/?filter=10361');
+    BrowserHandle().handle();
   }
 }
